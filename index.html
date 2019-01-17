@@ -29,6 +29,20 @@
       <div class="col-xs col-md-6 col-lg-3 bg-primary rowheight">100% mobile, 50% tablet, 25% desktop</div>
       <div class="col-xs col-md-6 col-lg-3 bg-primary rowheight">100% mobile, 50% tablet, 25% desktop</div>
     </div>
+    <br>
+    <div class="row">
+      <div class="col-3 bg-primary rowheight">single row</div>
+      <div class="col-9 bg-primary rowheight">
+        <div class="row">
+          <div class="col-6 bg-primary rowheight">split nested row</div>
+          <div class="col-6 bg-primary rowheight">split nested row</div>
+        </div>
+        <div class="row">
+          <div class="col-12 bg-primary rowheight">single nested row</div>
+          <!-- why did i have to do "col-12" instead of "col-" here for it to work? -->
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
